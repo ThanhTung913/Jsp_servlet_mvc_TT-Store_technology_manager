@@ -20,7 +20,7 @@ public class AccountDAO {
     }
 
     public boolean checkAccount(String username, String password) throws SQLException, ClassNotFoundException {
-        boolean isValid = false;
+        boolean isValid = true;
         try {
             Connection connection = getConnection();
             PreparedStatement preparedStatement = connection.prepareStatement(LOGIN_SQL);

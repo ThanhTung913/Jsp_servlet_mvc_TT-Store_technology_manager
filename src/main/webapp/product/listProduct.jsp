@@ -6,7 +6,7 @@
 <html lang="en">
 
 <head>
-    <title>List Product</title>
+<%--    <title>Product TT-STORE TECHNOLOGY</title>--%>
     <%@include file="../dashboard/layout/head.jsp" %>
 
 </head>

@@ -4,7 +4,7 @@
 <html lang="en">
 
 <head>
-    <title>Edit Product</title>
+<%--    <title>Edit Product</title>--%>
     <%@include file="/dashboard/layout/head.jsp" %>
 
 </head>

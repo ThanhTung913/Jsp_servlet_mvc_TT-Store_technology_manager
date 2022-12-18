@@ -4,7 +4,7 @@
 <html lang="en">
 
 <head>
-    <title>TT Store Admin</title>
+<%--    <title>TT Store Admin</title>--%>
     <%@include file="../dashboard/layout/head.jsp" %>
 
 </head>

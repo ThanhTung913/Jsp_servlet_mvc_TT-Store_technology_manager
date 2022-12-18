@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="TTSTORE@localhost" uuid="1721abaa-42f6-4cd7-8b18-e31e3b5c3a7e">
-      <driver-ref>mysql.8</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/TTSTORE</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
     <data-source source="LOCAL" name="TTSTORE@localhost [2]" uuid="7cea9aba-ef71-4513-a7fe-2ba254666389">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>

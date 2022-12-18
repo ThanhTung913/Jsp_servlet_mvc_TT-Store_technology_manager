@@ -11,13 +11,15 @@
 
 <head>
     <title>Login TTSTORE</title>
+<%--    <link rel="shortcut icon" type="image/png" href="/dashboard/assets/images/logo-ttstore.png"/>--%>
+
     <%@include file="/dashboard/layout/head.jsp" %>
     <style>
 
     </style>
 </head>
 
-<body class="authentication-page">
+<body class="authentication-page" style="background: grey">
 
 <div class="account-pages my-5">
     <div class="container">
@@ -25,8 +27,9 @@
             <div class="col-md-8 col-lg-6 col-xl-5">
                 <div class="card mt-4">
                     <div class="card-header p-4 bg-primary">
-                        <h4 class="text-white text-center mb-0 mt-0">
-                            TT.STORE</h4>
+                        <h4 class="text-white text-center mb-0 mt-0" style="font-family: sans-serif, Verdana">
+                            TT.STORE
+                        </h4>
                     </div>
                     <div class="card-body">
                         <form action="/account?action=login" class="p-2" method="post">
@@ -59,14 +62,7 @@
                                 </div>
                             </div>
                         </form>
-                        <div style="margin-top: 20px">
-                            <c:if test="${check}">
-                                <ul class="alert alert-danger col-3"
-                                    style="list-style-type: none; background-color:red;justify-content: center;align-items: center; text-align: center; color: white">
-                                    <li style="font-size: 15px">${error}</li>
-                                </ul>
-                            </c:if>
-                        </div>
+
 
                     </div>
                     <!-- end card-body -->
@@ -87,4 +83,3 @@
 <%@include file="/dashboard/layout/scrip.jsp" %>
 </body>
 
-</html>
